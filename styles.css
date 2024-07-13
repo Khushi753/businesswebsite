@@ -1,0 +1,547 @@
+body {
+    background-image: url("https://cornelloverseas.co.in/wp-content/uploads/2023/02/banner_bg_3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font: 14px "Helvetica Neue";
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    background-color:  #fff3f1;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #060000;
+    font-size: large;
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: all 0.3s ease;
+    margin-right: 20px; /* Add space between navbar items */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+  }
+  .firstsection {
+    display: flex;
+    flex-direction: column; /* Adjust the layout for smaller screens */
+    align-items: center;
+    margin: 30px 15px; /* Adjust the margin as needed */
+  }
+  
+  .firstsection > div {
+    width: 100%;
+    text-align: center; /* Center content within the div */
+  }
+  
+  .leftsection {
+    width: 100%;
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin: 20px 0;
+  }
+  
+  .rightsection img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  #id5 {
+    font-family: "unbounded", sans-serif;
+    font-size: 40px; /* Adjust font size for smaller screens */
+    font-weight: 400;
+    line-height: 1.3em;
+  }
+  
+  .button {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #cc3366;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px; /* Adjust font size for smaller screens */
+    padding: 13px 20px; /* Adjust padding as needed */
+    width: 170px; /* Adjust width as needed */
+    height: 62px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    /* Apply styles for screens larger than 768 pixels */
+    .firstsection {
+      flex-direction: row;
+    }
+  
+    .leftsection {
+      width: 50%;
+      font-size: 2.5rem;
+      margin: 30px 0;
+      margin-left: 50px;
+    }
+  
+    .rightsection img {
+      margin-top: 0;
+    }
+  }
+  .secondSection{
+    width:99vw;
+    background-image:url("https://as2.ftcdn.net/v2/jpg/02/21/86/53/1000_F_221865383_y85hHlvdVSCUffeGwPNvEMfFHo04K528.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+    height: 80vw;
+   
+    
+  }
+  .secondSection h1{
+    font-size:10 rem;
+  }
+  #word{
+    font:18px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(5, 4, 4);
+    line-height: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    font-size: x-large;
+    text-indent: 1%;
+   font-style: oblique;
+  }
+  /* .box1{
+    height:105px;
+    width:266px;
+    background-image: url("https://cornelloverseas.co.in/wp-content/uploads/2023/02/floral_image_1-1.webp");
+    background-position: top leftt;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    margin-left: 0px;
+    background-size:contain;
+  } */
+  /* For screens smaller than 768px */
+  @media (max-width: 767px) {
+    .secondSection {
+      height: auto;
+      padding: 20px; /* Adjust padding as needed */
+    }
+  
+    .box1 {
+      margin-left: 0; /* Remove the fixed margin */
+      width: 100%; /* Adjust width as needed */
+      background-position: top center; /* Center the background image */
+    }
+  
+    #word {
+      font-size: large; /* Adjust font size as needed */
+    }
+  }
+  
+  /* For screens larger than or equal to 768px */
+  @media (min-width: 768px) {
+    .secondSection {
+      height: 80vw;
+    }
+  
+    .box1 {
+      margin-left: 50%; /* Position box1 to the right */
+      transform: translateX(-50%); /* Center box1 horizontally */
+      width: auto;
+      max-width: 266px; /* Set maximum width */
+      height: auto;
+    }
+  
+    #word {
+      font-size: x-large; /* Adjust font size as needed */
+    }
+  }
+  
+  .ime {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right:0;
+    top:0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  #ap{
+   font:36px;
+  font-family: "unbounded",sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-stretch:extra-expanded;
+  font-weight: bold;
+  font-size: xx-large;
+  
+  }
+  .thirdsection {
+    width: 100%;
+    background-image: url("https://cornelloverseas.co.in/wp-content/uploads/2023/03/watercolour_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    box-sizing: border-box;
+  }
+  
+  .thirdsection h1 {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .cont3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 1 1 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .column img {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .column:hover {
+    transform: scale(1.1);
+  }
+  
+  .head {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .column {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .column {
+      flex: 1 1 calc(100% - 20px);
+    }
+  }
+  .fifthsection {
+    width: 100%;
+    background: #FFF6E5;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+  .lega {
+    margin: 0 20px; /* Adjust margins */
+  }
+  #ap{
+    font:36px;
+   font-family: "unbounded",sans-serif;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-stretch:extra-expanded;
+   font-weight: bold;
+   font-size: xx-large;
+   font-weight: bold;
+  
+  }
+  .bottom{
+    height:200px;
+    width:400px;
+    background-image: url("https://cornelloverseas.co.in/wp-content/uploads/2023/02/floral_image_7.webp");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 365px auto ;
+    margin-bottom: 0px;
+   }
+   @media screen and (max-width: 768px) {
+    .fifthsection {
+      height: auto; /* Let the height adjust based on content */
+    }
+  
+    .lega {
+      margin: 0; /* Remove margins */
+    }
+  }
+  .fourthsection {
+    width: 100%;
+    height: 35vw; /* Let the height adjust based on content */
+    background-color: aliceblue;
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .bg4 {
+    height: 150px; /* Adjust as needed */
+    width: 100%;
+    background-image: url("https://cornelloverseas.co.in/wp-content/uploads/2023/02/floral_image_4-1.webp");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain; /* Adjust background size */
+  }
+  
+  .cust {
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
+  h3 {
+    font-size: 18px; /* Adjust font size */
+    font-family: 'Unbounded', sans-serif;
+    margin: 10px 0; /* Adjust spacing */
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .bg4 {
+      height: 100px; /* Adjust background height for smaller screens */
+    }
+    .fourthsection{
+      height: auto;
+    }
+  
+    h3 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  } 
+  footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    font-size: medium;
+}
+footer a:hover{
+    color: var(--pink)!important;
+}
+
+/* media queries */
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+} 
+footer{
+  background-color: #5270d0;
+}
+footer .container{
+  font-size: large;
+}
+.secondSection{
+  width:100%;
+  background-image:url("https://as2.ftcdn.net/v2/jpg/02/21/86/53/1000_F_221865383_y85hHlvdVSCUffeGwPNvEMfFHo04K528.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:auto;
+  height: 80vw;
+ 
+  
+}
+.bog{
+  height:105px;
+  width:100%;
+  background-image: url("https://cornelloverseas.co.in/wp-content/uploads/2023/02/floral_image_1-1.webp");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.secondSection h1{
+  font-size:10 rem;
+}
+#word{
+  font:18px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(5, 4, 4);
+  line-height: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  font-size: x-large;
+  text-indent: 1%;
+ font-style: oblique;
+}
+@media (max-width: 767px) {
+  .secondSection {
+    height: auto;
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  .box1 {
+    margin-left: 0; /* Remove the fixed margin */
+    width: auto; /* Adjust width as needed */
+    background-position: top center; /* Center the background image */
+  }
+
+  #word {
+    font-size: large; /* Adjust font size as needed */
+  }
+}
+
+/* For screens larger than or equal to 768px */
+@media (min-width: 768px) {
+  .secondSection {
+    height: 80vw;
+  }
+
+  .box1 {
+    margin-left: 50%; /* Position box1 to the right */
+    transform: translateX(-50%); /* Center box1 horizontally */
+    width: auto;
+    max-width: 266px; /* Set maximum width */
+    height: auto;
+  }
+
+  #word {
+    font-size: x-large; /* Adjust font size as needed */
+  }
+}
+.con{
+  position: relative;
+  width:1000px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+.con .card{
+  position: relative;
+  max-width: 100%;
+  background: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  display:flex;
+}
+.con .card .imgbx{
+  max-width: 150px;
+  flex: 0 0 150px;
+  height: 200px;
+  width:200px;
+}
+.con .card .imgbx img{
+  max-width: 100%;
+  height: 200px;
+  width:200px;
+}
+.con .card .content{
+  margin-left: 20px;
+}
+@media (max-width: 991px){
+  .cont{
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px){
+  .cont{
+    flex-direction: column;
+  }
+  .cont .card{
+    flex-direction: column;
+    max-width:350px
+
+  }
+  
+  .cont .card .imgbx{
+    max-width:100%;
+  }
+  .con .card .content{
+    margin-left: 0px;
+  }
+}
+#kl{
+  font:5 px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(5, 4, 4);
+  line-height: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  font-size: x-large;
+  text-indent: 1%;
+ font-style: oblique;
+
+}
+.imgbx{
+  height: 250px;
+  width: 100%;
+  /* align-items: center; */
+ }
+.imgbx .img{
+height: 250px;
+width: 100%;
+} 
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.imgbx {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgbx img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .imgbx img {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .card {
+      width: 100%;
+  }
+}
